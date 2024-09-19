@@ -2,6 +2,7 @@
 #include <queue>
 #include <string>
 
+//Why doesn;t this empty tye queue?
 void displayQueue(std::queue<std::string> q) {
     std::cout << "Queue contents: ";
     while (!q.empty()) {
